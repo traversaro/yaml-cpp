@@ -127,6 +127,7 @@ set_target_properties(yaml-cpp PROPERTIES
   PROJECT_LABEL "yaml-cpp ${yaml-cpp-label-postfix}"
   DEBUG_POSTFIX "${CMAKE_DEBUG_POSTFIX}")
 
+set(EXPORT_TARGETS yaml-cpp)
 configure_package_config_file(
   "${PROJECT_SOURCE_DIR}/yaml-cpp-config.cmake.in"
   "${PROJECT_BINARY_DIR}/yaml-cpp-config.cmake"
